@@ -8,7 +8,7 @@
 #
 #   Append the string that corresponds to this key into a data storage
 #
-#   - For this key, we'll be appending the "{octave}.{instrument}.{note}" string 
+#   - For this key, we'll be appending the "{octave}.{instrument}.{note}" string
 #     into the storage
 #
 #   - Octave:

@@ -1,25 +1,25 @@
-#> origins-kombo-bard:instrument/octave_1/sharp/hotbar.2
+#> origins-kombo-bard:instrument/octave_1/flat/hotbar.7
 #
-#   > Octave 1, INSTRUMENT, Note G#
+#   > Octave 1, INSTRUMENT, Note F
 #
-#@internal
+#@within function origins-kombo-bard:key/hotbar.7
 
 
 #
 #   Append the string that corresponds to this key into a data storage
 #
-#   - Gor this key, we'll be appending the "{octave}.{instrument}.{note}" string 
+#   - For this key, we'll be appending the "{octave}.{instrument}.{note}" string
 #     into the storage
 #
 #   - Octave:
-#     P8_1 (sharp)
+#     P8_1 (flat)
 #
 #   - Instruments:
 #     banjo, basedrum, bass, bell, bit, chime, cow_bell, didgeridoo, flute,
 #     guitar, harp, hat, iron_xylophone, pling, snare, xylophone
 #
 #   - Note:
-#     G#
+#     F
 #
 function rx.playerdb:api/get_self
 
@@ -97,4 +97,4 @@ execute if score @s o-k.b_inst matches 16 run playsound minecraft:block.note_blo
 #
 #   Display an indicator
 #
-title @s actionbar {"text": "G#"}
+title @s actionbar {"text": "F"}

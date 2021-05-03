@@ -1,25 +1,25 @@
-#> origins-kombo-bard:instrument/octave_1/sharp/hotbar.3
+#> origins-kombo-bard:instrument/octave_1/flat/hotbar.1
 #
-#   > Octave 1, INSTRUMENT, Note A#
+#   > Octave 1, INSTRUMENT, Note G
 #
-#@within function origins-kombo-bard:key/hotbar.3
+#@within function origins-kombo-bard:key/hotbar.1
 
 
 #
 #   Append the string that corresponds to this key into a data storage
 #
-#   - Aor this key, we'll be appending the "{octave}.{instrument}.{note}" string 
+#   - For this key, we'll be appending the "{octave}.{instrument}.{note}" string
 #     into the storage
 #
 #   - Octave:
-#     P8_1 (sharp)
+#     P8_1 (flat)
 #
 #   - Instruments:
 #     banjo, basedrum, bass, bell, bit, chime, cow_bell, didgeridoo, flute,
 #     guitar, harp, hat, iron_xylophone, pling, snare, xylophone
 #
 #   - Note:
-#     A#
+#     G
 #
 function rx.playerdb:api/get_self
 
@@ -61,40 +61,40 @@ function rx.playerdb:api/save_self
 #
 #   Play a sound respective to the set score
 #
-execute if score @s o-k.b_inst matches 1 run playsound minecraft:block.note_block.banjo master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 1 run playsound minecraft:block.note_block.banjo master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 2 run playsound minecraft:block.note_block.basedrum master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 2 run playsound minecraft:block.note_block.basedrum master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 3 run playsound minecraft:block.note_block.bass master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 3 run playsound minecraft:block.note_block.bass master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 4 run playsound minecraft:block.note_block.bell master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 4 run playsound minecraft:block.note_block.bell master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 5 run playsound minecraft:block.note_block.bit master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 5 run playsound minecraft:block.note_block.bit master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 6 run playsound minecraft:block.note_block.chime master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 6 run playsound minecraft:block.note_block.chime master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 7 run playsound minecraft:block.note_block.cow_bell master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 7 run playsound minecraft:block.note_block.cow_bell master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 8 run playsound minecraft:block.note_block.didgeridoo master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 8 run playsound minecraft:block.note_block.didgeridoo master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 9 run playsound minecraft:block.note_block.flute master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 9 run playsound minecraft:block.note_block.flute master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 10 run playsound minecraft:block.note_block.guitar master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 10 run playsound minecraft:block.note_block.guitar master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 11 run playsound minecraft:block.note_block.harp master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 11 run playsound minecraft:block.note_block.harp master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 12 run playsound minecraft:block.note_block.hat master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 12 run playsound minecraft:block.note_block.hat master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 13 run playsound minecraft:block.note_block.iron_xylophone master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 13 run playsound minecraft:block.note_block.iron_xylophone master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 14 run playsound minecraft:block.note_block.pling master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 14 run playsound minecraft:block.note_block.pling master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 15 run playsound minecraft:block.note_block.snare master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 15 run playsound minecraft:block.note_block.snare master @a ~ ~ ~ 1 0.529732 0
 
-execute if score @s o-k.b_inst matches 16 run playsound minecraft:block.note_block.xylophone master @a ~ ~ ~ 1 0.629961 0
+execute if score @s o-k.b_inst matches 16 run playsound minecraft:block.note_block.xylophone master @a ~ ~ ~ 1 0.529732 0
 
 
 #
 #   Display an indicator
 #
-title @s actionbar {"text": "A#"}
+title @s actionbar {"text": "G"}

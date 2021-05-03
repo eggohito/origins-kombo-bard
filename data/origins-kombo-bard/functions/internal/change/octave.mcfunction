@@ -14,6 +14,6 @@
 #
 execute store success score @s o-k.b_octv if score @s o-k.b_octv matches 0
 
-execute if score @s o-k.b_octv matches 0 run title @s actionbar {"text": "Switched to Octave #1", "color": "green"}
+execute if score @s o-k.b_octv matches 0 run title @s actionbar {"text": "Switched to Octave #1", "color": "white"}
 
-execute if score @s o-k.b_octv matches 1 run title @s actionbar {"text": "Switched to Octave #2", "color": "green"}
+execute if score @s o-k.b_octv matches 1 run title @s actionbar {"text": "Switched to Octave #2", "color": "white"}
