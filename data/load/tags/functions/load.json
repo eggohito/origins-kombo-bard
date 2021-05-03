@@ -1,0 +1,7 @@
+{
+    "values": [
+        "#load:rx/playerdb",
+        "origins-kombo:load",
+        "origins-kombo-bard:load"
+    ]
+}

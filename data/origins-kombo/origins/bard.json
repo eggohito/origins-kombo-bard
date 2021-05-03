@@ -1,0 +1,25 @@
+{
+    "powers": [
+        "origins-kombo-bard:internal",
+        
+        "origins-kombo-bard:key/hotbar.1",
+        "origins-kombo-bard:key/hotbar.2",
+        "origins-kombo-bard:key/hotbar.3",
+        "origins-kombo-bard:key/hotbar.4",
+        "origins-kombo-bard:key/hotbar.5",
+        "origins-kombo-bard:key/hotbar.6",
+        "origins-kombo-bard:key/hotbar.7",
+
+        "origins-kombo-bard:kombos/hymn_of_protection",
+        "origins-kombo-bard:kombos/hymn_of_rage",
+        "origins-kombo-bard:kombos/haha_megalovania"
+    ],
+    "icon": {
+        "item": "minecraft:note_block"
+    },
+    "order": 0,
+    "impact": 1,
+    "name": "Bard",
+    "description": "As a bard, you can play any [note block] instrument. Playing certain note patterns can give you various results, like activating a power for example. \n\nIn order to play a note, you'd have to press either the primary, or secondary key once. \n\nTo cycle through the instruments, you can press sneak. \n\nTo switch octaves, you can press the secondary ability key. \n\nTo change key signature, you can press the primary ability key.",
+    "loading_priority": 69420
+}
