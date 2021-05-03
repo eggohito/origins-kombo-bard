@@ -14,6 +14,8 @@ scoreboard objectives add o-k.b_octv dummy
 
 scoreboard objectives add o-k.b_ksig dummy
 
+scoreboard objectives add o-k.b_scale dummy
+
 
 #
 #   Set variable(s)/constant(s)
