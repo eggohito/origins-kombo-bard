@@ -18,9 +18,6 @@ execute if score @s o-k.b_ksig matches 12.. run scoreboard players set @s o-k.b_
 
 title @s times 2 10 2
 
-title @s actionbar {"text": "Changed key signature!", "color": "green"}
-
-
 # Major
 execute if score @s o-k.b_ksig matches 0 if score @s o-k.b_scale matches 0 run title @s title {"text": "A", "color": "white"}
 
