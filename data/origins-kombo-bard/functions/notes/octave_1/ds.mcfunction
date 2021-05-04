@@ -1,6 +1,6 @@
-#> origins-kombo-bard:instrument/octave_1/flat/hotbar.1
+#> origins-kombo-bard:notes/octave_1/ds
 #
-#   > Octave 1, INSTRUMENT, Note G
+#   > Octave 1, INSTRUMENT, Note D#
 #
 #@within function origins-kombo-bard:key/hotbar.1
 
@@ -19,7 +19,7 @@
 #     guitar, harp, hat, iron_xylophone, pling, snare, xylophone
 #
 #   - Note:
-#     G
+#     D#
 #
 function rx.playerdb:api/get_self
 

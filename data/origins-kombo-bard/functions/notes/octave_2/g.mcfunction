@@ -1,4 +1,4 @@
-#> origins-kombo-bard:instrument/octave_1/flat/hotbar.1
+#> origins-kombo-bard:notes/octave_2/g
 #
 #   > Octave 1, INSTRUMENT, Note G
 #
