@@ -1,10 +1,10 @@
-#> origins-kombo-bard:internal/change/octave
+#> origins-kombo-bard:internal/change/scale
 #
-#   > Toggle the key octave
+#   > Toggle the key scale
 #
-#   - Referenced in **`origins-kombo-bard:internal_octave`** sub-power
+#   - Referenced in **`origins-kombo-bard:internal_scale`** sub-power
 #
-#     (`data\origins-kombo-bard\powers\internal.json - "octave"`)
+#     (`data\origins-kombo-bard\powers\internal.json - "scale"`)
 #
 #@internal
 
