@@ -11,10 +11,10 @@
 
 #
 #   Cycle through the key signatures and display the currently selected note
-# 
-execute unless score @s o-k.b_ksig matches 11.. run scoreboard players add @s o-k.b_ksig 1
+#
+execute unless score @s o-k.b_ksig matches 12.. run scoreboard players add @s o-k.b_ksig 1
 
-execute if score @s o-k.b_ksig matches 11.. run scoreboard players set @s o-k.b_ksig 0
+execute if score @s o-k.b_ksig matches 12.. run scoreboard players set @s o-k.b_ksig 0
 
 title @s times 2 10 2
 
