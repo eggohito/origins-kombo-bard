@@ -1,4 +1,4 @@
-#> origins-kombo-bard:instrument/change
+#> origins-kombo-bard:internal/change/instrument
 #
 #   > Change the current instrument of the player and display a message
 #

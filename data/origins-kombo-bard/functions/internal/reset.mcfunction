@@ -15,3 +15,7 @@
 scoreboard players set @s o-k.b_ksig 0
 
 scoreboard players set @s o-k.b_octv 0
+
+scoreboard players set @s o-k.b_inst 0
+
+scoreboard players set @s o-k.b_scale 0
