@@ -13,9 +13,9 @@
 #   Display the ID of the instrument depending on the player's score in the `o-k.b_inst` 
 #   objective
 #
-execute unless score @s o-k.b_inst matches 16.. run scoreboard players add @s o-k.b_inst 1
+execute unless score @s o-k.b_inst >= #instruments o-k.b_inst run scoreboard players add @s o-k.b_inst 1
 
-execute if score @s o-k.b_inst matches 16.. run scoreboard players set @s o-k.b_inst 0
+execute if score @s o-k.b_inst >= #instruments o-k.b_inst run scoreboard players set @s o-k.b_inst 0
 
 playsound minecraft:ui.button.click master @s ~ ~ ~ 0.25 2
 
