@@ -35,12 +35,6 @@
                 "resource": "origins-kombo-bard:internal_casted",
                 "comparison": "==",
                 "compare_to": 0
-            },
-            {
-                "type": "origins:command",
-                "command": "scoreboard players get @s o-k.b_ksig",
-                "comparison": "==",
-                "compare_to": 1
             }
         ]
     },
