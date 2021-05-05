@@ -460,23 +460,6 @@
                     "change": -69420
                 },
                 {
-                    "type": "origins:if_else",
-                    "condition": {
-                        "type": "origins:command",
-                        "command": "scoreboard players get @s o-k.b_inst",
-                        "comparison": "==",
-                        "compare_to": 16
-                    },
-                    "if_action": {
-                        "type": "origins:execute_command",
-                        "command": "scoreboard players set @s o-k.b_inst 1"
-                    },
-                    "else_action": {
-                        "type": "origins:execute_command",
-                        "command": "scoreboard players add @s o-k.b_inst 1"
-                    }
-                },
-                {
                     "type": "origins:execute_command",
                     "command": "title @s actionbar {\"text\": \"\"}"
                 },
