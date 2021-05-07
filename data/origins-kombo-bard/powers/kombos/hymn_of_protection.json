@@ -22,7 +22,7 @@
                     "type": "origins:if_else",
                     "condition": {
                         "type": "origins:command",
-                        "command": "data modify storage rx:io playerdb.player.data.origins-kombo.check set value [\"P8_2.bell.F#.1\", \"P8_2.bell.F#.2\", \"P8_2.bell.C#\", \"P8_2.bell.F#.2\"]",
+                        "command": "data modify storage rx:io playerdb.player.data.origins-kombo.check set value [\"P8_1.bell.A\", \"P8_1.bell.F#\", \"P8_1.bell.D\", \"P8_1.bell.F#\"]",
                         "comparison": "==",
                         "compare_to": 0
                     },

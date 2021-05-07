@@ -23,7 +23,9 @@ scoreboard players add @s o-k.combo 1
 # Major
 title @s title ""
 
-execute if score @s o-k.b_ksig matches 0 run title @s title {"text": "B", "color": "white"}
+execute if score @s o-k.b_ksig matches 0 if score @s o-k.b_octv matches 0 run function origins-kombo-bard:notes/octave_1/b
+
+execute if score @s o-k.b_ksig matches 0 if score @s o-k.b_octv matches 1 run function origins-kombo-bard:notes/octave_2/b
 
 
 #
