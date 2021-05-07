@@ -3,7 +3,8 @@
         "pack_format": 6,
         "version": "v1.0.0",
         "authors": [
-            "eggohito"
+            "eggohito",
+            "CandyCaneCazoo"
         ],
         "description": "A datapack that adds a Bard origin using a modified KOMBO framework."
     }
