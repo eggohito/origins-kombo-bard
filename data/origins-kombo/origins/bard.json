@@ -1,7 +1,7 @@
 {
     "powers": [
         "origins-kombo-bard:internal",
-        
+
         "origins-kombo-bard:key/hotbar.1",
         "origins-kombo-bard:key/hotbar.2",
         "origins-kombo-bard:key/hotbar.3",
@@ -12,7 +12,8 @@
 
         "origins-kombo-bard:kombos/hymn_of_protection",
         "origins-kombo-bard:kombos/hymn_of_rage",
-        "origins-kombo-bard:kombos/haha_megalovania"
+        "origins-kombo-bard:kombos/haha_megalovania",
+        "origins-kombo-bard:kombos/married_life"
     ],
     "icon": {
         "item": "minecraft:note_block"
