@@ -25,7 +25,7 @@
                         },
                         {
                             "type": "origins:execute_command",
-                            "command": "tellraw @a {\"text\": \"South America. It’s like America, but south.\"}"
+                            "command": "tellraw @a {\"text\": \"South America. It’s like America, but south!\"}"
                         },
                         {
                             "type": "origins:delay",
