@@ -111,15 +111,15 @@ execute if score @s o-k.b_ksig matches 8 if score @s o-k.b_octv matches 1 if sco
 
 execute if score @s o-k.b_ksig matches 9 if score @s o-k.b_octv matches 0 if score @s o-k.b_scale matches 1 run function origins-kombo-bard:notes/octave_1/e
 
-execute if score @s o-k.b_ksig matches 9 if score @s o-k.b_octv matches 1 if score @s o-k.b_scale matches 0 run function origins-kombo-bard:notes/octave_2/e
+execute if score @s o-k.b_ksig matches 9 if score @s o-k.b_octv matches 1 if score @s o-k.b_scale matches 1 run function origins-kombo-bard:notes/octave_2/e
 
-execute if score @s o-k.b_ksig matches 10 if score @s o-k.b_octv matches 0 if score @s o-k.b_scale matches 0 run function origins-kombo-bard:notes/octave_1/f
+execute if score @s o-k.b_ksig matches 10 if score @s o-k.b_octv matches 0 if score @s o-k.b_scale matches 1 run function origins-kombo-bard:notes/octave_1/f
 
-execute if score @s o-k.b_ksig matches 10 if score @s o-k.b_octv matches 1 if score @s o-k.b_scale matches 0 run function origins-kombo-bard:notes/octave_2/f
+execute if score @s o-k.b_ksig matches 10 if score @s o-k.b_octv matches 1 if score @s o-k.b_scale matches 1 run function origins-kombo-bard:notes/octave_2/f
 
-execute if score @s o-k.b_ksig matches 11 if score @s o-k.b_octv matches 0 if score @s o-k.b_scale matches 0 run function origins-kombo-bard:notes/octave_1/fs
+execute if score @s o-k.b_ksig matches 11 if score @s o-k.b_octv matches 0 if score @s o-k.b_scale matches 1 run function origins-kombo-bard:notes/octave_1/fs
 
-execute if score @s o-k.b_ksig matches 11 if score @s o-k.b_octv matches 1 if score @s o-k.b_scale matches 0 run function origins-kombo-bard:notes/octave_2/fs
+execute if score @s o-k.b_ksig matches 11 if score @s o-k.b_octv matches 1 if score @s o-k.b_scale matches 1 run function origins-kombo-bard:notes/octave_2/fs
 
 
 #
