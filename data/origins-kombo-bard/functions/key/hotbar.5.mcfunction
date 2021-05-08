@@ -20,6 +20,7 @@ scoreboard players add @s o-k.combo 1
 #   in the `o-k.b_scale` and` o-k.b_ksig` objectives
 #
 
+
 # Major
 title @s title ""
 
@@ -70,31 +71,6 @@ execute if score @s o-k.b_ksig matches 10 if score @s o-k.b_octv matches 1 run f
 execute if score @s o-k.b_ksig matches 11 if score @s o-k.b_octv matches 0 run function origins-kombo-bard:notes/octave_1/ds
 
 execute if score @s o-k.b_ksig matches 11 if score @s o-k.b_octv matches 1 run function origins-kombo-bard:notes/octave_2/ds
-#
-#   These commented lines need changing! -eggohito
-#
-
-# execute if score @s o-k.b_ksig matches 1 run title @s title {"text": "A#", "color": "white"}
-
-# execute if score @s o-k.b_ksig matches 2 run title @s title {"text": "B", "color": "white"}
-
-# execute if score @s o-k.b_ksig matches 3 run title @s title {"text": "C", "color": "white"}
-
-# execute if score @s o-k.b_ksig matches 4 run title @s title {"text": "C#", "color": "white"}
-
-# execute if score @s o-k.b_ksig matches 5 run title @s title {"text": "D", "color": "white"}
-
-# execute if score @s o-k.b_ksig matches 6 run title @s title {"text": "D#", "color": "white"}
-
-# execute if score @s o-k.b_ksig matches 7 run title @s title {"text": "E", "color": "white"}
-
-# execute if score @s o-k.b_ksig matches 8 run title @s title {"text": "F", "color": "white"}
-
-# execute if score @s o-k.b_ksig matches 9 run title @s title {"text": "F#", "color": "white"}
-
-# execute if score @s o-k.b_ksig matches 10 run title @s title {"text": "G", "color": "white"}
-
-# execute if score @s o-k.b_ksig matches 11 run title @s title {"text": "G#", "color": "white"}
 
 
 #
