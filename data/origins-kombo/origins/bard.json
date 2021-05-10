@@ -2,16 +2,8 @@
     "powers": [
         "origins-kombo-bard:internal",
 
-        "origins-kombo-bard:key/hotbar.1",
-        "origins-kombo-bard:key/hotbar.2",
-        "origins-kombo-bard:key/hotbar.3",
-        "origins-kombo-bard:key/hotbar.4",
-        "origins-kombo-bard:key/hotbar.5",
-        "origins-kombo-bard:key/hotbar.6",
-        "origins-kombo-bard:key/hotbar.7",
-
-        "origins-kombo-bard:kombos/hymn_of_protection",
-        "origins-kombo-bard:kombos/hymn_of_rage"
+        "origins-kombo-bard:kombos/examples/hymn_of_protection",
+        "origins-kombo-bard:kombos/examples/hymn_of_rage"
     ],
     "icon": {
         "item": "minecraft:note_block"

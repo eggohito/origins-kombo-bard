@@ -757,5 +757,299 @@
             ]
         }
     },
+    "hotbar.1": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "origins-kombo-bard:internal_timeout",
+                    "change": -69420
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function origins-kombo-bard:key/hotbar.1"
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.hotbar.1"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casting",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casted",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "hidden": true
+    },
+    "hotbar.2": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "origins-kombo-bard:internal_timeout",
+                    "change": -69420
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function origins-kombo-bard:key/hotbar.2"
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.hotbar.2"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casting",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casted",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "hidden": true
+    },
+    "hotbar.3": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "origins-kombo-bard:internal_timeout",
+                    "change": -69420
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function origins-kombo-bard:key/hotbar.3"
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.hotbar.3"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casting",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casted",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "hidden": true
+    },
+    "hotbar.4": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "origins-kombo-bard:internal_timeout",
+                    "change": -69420
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function origins-kombo-bard:key/hotbar.4"
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.hotbar.4"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casting",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casted",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "hidden": true
+    },
+    "hotbar.5": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "origins-kombo-bard:internal_timeout",
+                    "change": -69420
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function origins-kombo-bard:key/hotbar.5"
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.hotbar.5"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casting",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casted",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "hidden": true
+    },
+    "hotbar.6": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "origins-kombo-bard:internal_timeout",
+                    "change": -69420
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function origins-kombo-bard:key/hotbar.6"
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.hotbar.6"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casting",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casted",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "hidden": true
+    },
+    "hotbar.7": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "origins-kombo-bard:internal_timeout",
+                    "change": -69420
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function origins-kombo-bard:key/hotbar.7"
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.hotbar.7"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casting",
+                    "comparison": "==",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "origins-kombo-bard:internal_casted",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "hidden": true
+    },
     "hidden": true
 }
