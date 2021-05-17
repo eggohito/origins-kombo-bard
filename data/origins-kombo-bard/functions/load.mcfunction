@@ -2,7 +2,7 @@
 #
 #   > The main load function for the `origins-kombo-bard` namespace
 #
-#@within tag/function load:load
+#@within function origins-kombo-bard:check_deps
 
 
 #
@@ -26,4 +26,4 @@ scoreboard players set #instruments o-k.b_inst 16
 #
 #   Display a message for debuggers
 #
-tellraw @a[tag = o-k-b.debugger] {"text": "[+ Loaded \"Key Combo: Bard (Origins)\"]", "color": "green"}
+tellraw @a[tag = o-k.debugger] {"text": "[+ Loaded \"Key Combo: Bard (Origins)\"]", "color": "green"}
