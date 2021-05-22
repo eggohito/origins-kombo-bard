@@ -1,9 +1,16 @@
 {
     "powers": [
         "origins-kombo-bard:internal",
+        
+        "origins-kombo-bard:kombos/examples/hymn_of_rage/cast",
+        "origins-kombo-bard:kombos/examples/hymn_of_rage/duration",
+        "origins-kombo-bard:kombos/examples/hymn_of_rage/power",
 
         "origins-kombo-bard:kombos/examples/hymn_of_protection",
-        "origins-kombo-bard:kombos/examples/hymn_of_rage"
+
+        "origins-kombo-bard:kombos/examples/married_life", 
+
+        "origins-kombo-bard:kombos/examples/sweden"
     ],
     "icon": {
         "item": "minecraft:note_block"
