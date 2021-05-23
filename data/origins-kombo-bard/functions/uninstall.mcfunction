@@ -28,4 +28,4 @@ scoreboard objectives remove o-k.b_scale
 #
 datapack disable "file/origins-kombo-bard"
 
-datapack disable "fle/origins-kombo-bard_v1.0.zip"
+datapack disable "file/origins-kombo-bard_v1.0.zip"
