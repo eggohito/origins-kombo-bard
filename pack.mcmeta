@@ -6,6 +6,6 @@
             "eggohito",
             "CandyCaneCazoo"
         ],
-        "description": "A datapack that adds a Bard origin using a modified KOMBO framework."
+        "description": "A modified version of the origins-kombo library that uses notes instead of keys."
     }
 }
