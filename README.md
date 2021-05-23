@@ -50,11 +50,12 @@ The kombo-bard system has some configurable variables, like being able to change
 * To switch octaves, you can press the 8th hotbar slot.
 * To change the key signature, you can press the secondary ability key.
 * To change scale, you can press the primary ability key.
-  <br>
+<br>
+<br>
 
 <ol>
 <details>
-<summary>Applying the kombo-bard system</summary>
+<summary><b>Applying the kombo-bard system</b></summary>
 
 We would first need to add the <code>origins-kombo-bard:internal</code> power into the <code>"powers"</code> array field of an origin for the whole modified key combo system to work. This power is used for checking if the player has reached its max combo, reached its cast timeout limit, etc.
 <br>
