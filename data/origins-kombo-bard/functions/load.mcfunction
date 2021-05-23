@@ -22,6 +22,8 @@ scoreboard objectives add o-k.b_scale dummy
 #
 scoreboard players set #instruments o-k.b_inst 16
 
+scoreboard players set #origins-kombo-bard load 1
+
 
 #
 #   Display a message for debuggers
