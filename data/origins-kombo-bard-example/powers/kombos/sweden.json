@@ -1,0 +1,75 @@
+{
+    "type": "origins:multiple",
+    "duration": {
+        "type": "origins:cooldown",
+        "cooldown": 200,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 4
+        }
+    },
+    "cast": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "function rx.playerdb:api/get_self"
+                },
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:command",
+                        "command": "data modify storage rx:io playerdb.player.data.origins-kombo.check set value [\"P8_1.harp.E\", \"P8_1.harp.F#\", \"P8_1.harp.G\", \"P8_1.harp.B\", \"P8_1.harp.A\", \"P8_1.harp.G\", \"P8_1.harp.D\", \"P8_1.harp.E\", \"P8_1.harp.F#\", \"P8_1.harp.G\", \"P8_1.harp.B\", \"P8_1.harp.A\", \"P8_1.harp.G\", \"P8_1.harp.D\", \"P8_1.harp.E\", \"P8_1.harp.F#\", \"P8_1.harp.G\", \"P8_1.harp.B\", \"P8_1.harp.A\", \"P8_1.harp.G\", \"P8_1.harp.D\"]",
+                        "comparison": "==",
+                        "compare_to": 0
+                    },
+                    "if_action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:execute_command",
+                                "command": "function origins-kombo:internal/cast_success"
+                            },
+                            {
+                                "type": "origins:execute_command",
+                                "command": "tellraw @a {\"translate\": \"%s casted \\\"Sweden\\\"\", \"color\": \"yellow\", \"with\": [{\"selector\": \"@s\"}]}"
+                            },
+                            {
+                                "type": "origins:trigger_cooldown",
+                                "power": "*:*_duration"
+                            }
+                        ]
+                    },
+                    "else_action": {
+                        "type": "origins:execute_command",
+                        "command": "function origins-kombo:internal/cast_fail"
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:command",
+            "command": "scoreboard players get @s o-k.max_combo.r",
+            "comparison": "==",
+            "compare_to": 1
+        }
+    },
+    "power": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "particle smoke ~ ~ ~ 0.25 10 0.25 0.09 2 normal @a"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_duration",
+            "comparison": "==",
+            "compare_to": 0,
+            "inverted": true
+        }
+    }
+}
