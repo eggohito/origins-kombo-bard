@@ -6,8 +6,6 @@ This datapack is a somewhat modified version of the [`origins-kombo`](https://gi
 This datapack also uses [Lantern Load](https://github.com/LanternMC/Load) to ensure that this datapack loads before your datapack. You can detect if this library is loaded by checking the score of the `#origins-kombo` score holder in the `load` objective. 
 <br>
 
-
-
 <ol>
 <details>
 <summary>To ensure that this library loads before your datapack, you would add your load function inside the <code>#load:post_load</code> function tag (<code>data\load\tags\functions\post_load.json</code>) after copying the <code>minecraft</code> and <code>load</code> folders from the Lantern Load repository, like so:</summary>
@@ -52,14 +50,12 @@ The kombo-bard system has some configurable variables, like being able to change
 * To change scale, you can press the primary ability key.
 * To cancel the 'play note' phase, you can hold the sneak key momentarily.
 <br>
-<br>
 
 <ol>
 <details>
 <summary><b>Applying the kombo-bard system</b></summary>
 
 We would first need to add the <code>origins-kombo-bard:internal</code> power into the <code>"powers"</code> array field of an origin for the whole modified key combo system to work. This power is used for checking if the player has reached its max combo, reached its cast timeout limit, etc.
-<br>
 <br>
 
 <ol>
@@ -84,6 +80,7 @@ We would first need to add the <code>origins-kombo-bard:internal</code> power in
 
 </details>
 </ol>
+<br>
 
 </details>
 </ol>
@@ -91,8 +88,8 @@ We would first need to add the <code>origins-kombo-bard:internal</code> power in
 <ol>
 <details>
 <summary><b>Adding a Hymn</b></summary>
+
 To add a Hymn, we must first get the input data of the player in their storage entry added by PlayerDB.
-<br>
 <br>
 
 We can do so by running the <code>rx.playerdb:api/get_self</code> function. Afterwards, we would check for the pattern by setting the <code>playerdb.player.data.origins-kombo-check</code> NBT path in the `rx:io` storage as the set pattern we wish to use.
@@ -109,7 +106,7 @@ The reason why we're doing it the opposite way is due to how setting an already 
 
 <ol>
 <details>
-<summary>Here's an example Hymn named <code>simple_hymn</code> inside the <code>data\origins-kombo-bard-example\powers\kombos</code> folder that will run a `/summon lightning_bolt` command at the nearby entities if you play the A note in A Major, in the 1st Octave, and with the Bell instrument 4 times.</summary>
+<summary>Here's an example Hymn named <code>simple_hymn</code> inside the <code>data\origins-kombo-bard-example\powers\kombos</code> folder that will run a <code>/summon</code> command at the nearby entities if you play the A note in A Major, in the 1st Octave, and with the Bell instrument 4 times.</summary>
 
 ```json
 {
@@ -173,7 +170,6 @@ The reason why we're doing it the opposite way is due to how setting an already 
 
 </details>
 </ol>
-<br>
 
 <ol>
 <details>
@@ -199,6 +195,7 @@ The reason why we're doing it the opposite way is due to how setting an already 
 
 </details>
 </ol>
+<br>
 
 </details>
 </ol>
@@ -206,12 +203,19 @@ The reason why we're doing it the opposite way is due to how setting an already 
 <ol>
 <details>
 <summary><b>Composing a Hymn</b></summary>
+
 There are two ways to compose a Hymn: manually listing the notes, or copying an output of a command from the dynamic output log.
+<br>
 
 For the latter, you'll be essentially grabbing the previously played note pattern in the player's storage entry in PlayerDB, which saves you a lot of time having to manually list it in the array for checking the note pattern. Here's the command that you would run:
 
 ```mcfunction
+data get storage rx:global playerdb.players[{info: {name: '<username>'}}].data.origins-kombo.check
 ```
+* `<username>` being your username
+<br>
+
+You can then copy the output of the ran command either from your `latest.log` file that's inside your `.minecraft\logs` folder, or the dynamic output log. Don't forget to escape the nested quotes when pasting them inside your Hymn JSON file!
 
 </details>
 </ol>
