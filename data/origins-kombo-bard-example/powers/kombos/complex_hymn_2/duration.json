@@ -4,5 +4,6 @@
     "hud_render": {
         "should_render": true,
         "bar_index": 4
-    }
+    },
+    "hidden": true
 }

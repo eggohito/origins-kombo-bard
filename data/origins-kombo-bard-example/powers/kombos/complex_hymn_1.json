@@ -35,7 +35,7 @@
                             },
                             {
                                 "type": "origins:execute_command",
-                                "command": "tellraw @a {\"translate\": \"%s casted \\\"Hymn of Protection\\\"!\", \"color\": \"yellow\", \"with\": [{\"selector\": \"@s\"}]}"
+                                "command": "tellraw @a {\"translate\": \"%s casted \\\"Complex Hymn #1\\\"!\", \"color\": \"yellow\", \"with\": [{\"selector\": \"@s\"}]}"
                             },
                             {
                                 "type": "origins:trigger_cooldown",
@@ -71,5 +71,7 @@
             "compare_to": 0,
             "inverted": true
         }
-    }
+    },
+    "name": "Complex Hymn #1",
+    "description": "A Hymn that would display the 'happy villager' particle surrounding the player. \n\nNote pattern: \nA, F#, D, F# \n\nKey Signature and Scale: \n A Major \n\nInstrument: \nBell \n\nOctave: 1st"
 }

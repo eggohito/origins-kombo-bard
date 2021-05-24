@@ -25,11 +25,11 @@
                         },
                         {
                             "type": "origins:execute_command",
-                            "command": "tellraw @a {\"translate\": \"%s casted \\\"Hymn of Rage\\\"!\", \"color\": \"yellow\", \"with\": [{\"selector\": \"@s\"}]}"
+                            "command": "tellraw @a {\"translate\": \"%s casted \\\"Complex Hymn #2\\\"!\", \"color\": \"yellow\", \"with\": [{\"selector\": \"@s\"}]}"
                         },
                         {
                             "type": "origins:trigger_cooldown",
-                            "power": "*:kombos/examples/hymn_of_rage/duration"
+                            "power": "*:kombos/complex_hymn_2/duration"
                         }
                     ]
                 },
@@ -45,5 +45,7 @@
         "command": "scoreboard players get @s o-k.max_combo.r",
         "comparison": "==",
         "compare_to": 1
-    }
+    },
+    "name": "Complex Hymn #2",
+    "description": "A Hymn that would display the 'angry villager' particle around the player. \n\nNote pattern: \nA, D, D, B \n\nKey Signature and Scale: \n A Major \n\nInstrument: \nBass \n\nOctave: 1st"
 }

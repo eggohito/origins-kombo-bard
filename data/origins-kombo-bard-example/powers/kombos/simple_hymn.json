@@ -53,5 +53,7 @@
         "command": "scoreboard players get @s o-k.max_combo.r",
         "comparison": "==",
         "compare_to": 1
-    }
+    },
+    "name": "Simple Hymn",
+    "description": "A Hymn that would summon lightning at nearby entities. \n\nNote pattern: \n  A, A, A, A \n\nKey Signature and Scale: \n  A Major \n\nInstrument: \n  Bell \n\nOctave: 1st"
 }

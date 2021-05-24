@@ -7,9 +7,10 @@
     },
     "condition": {
         "type": "origins:resource",
-        "resource": "*:kombos/examples/hymn_of_rage/duration",
+        "resource": "*:kombos/complex_hymn_2/duration",
         "comparison": "==",
         "compare_to": 0,
         "inverted": true
-    }
+    },
+    "hidden": true
 }
