@@ -1,3 +1,5 @@
 {
-    "values": []
+    "values": [
+        "origins-kombo-bard:private/load/check_dependencies"
+    ]
 }
