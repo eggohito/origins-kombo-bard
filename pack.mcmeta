@@ -1,0 +1,11 @@
+{
+    "pack": {
+        "pack_format": 7,
+        "version": "2.0.0",
+        "authors": [
+            "eggohito",
+            "CandyCaneCazoo"
+        ],
+        "description": "An extension of the origins-kombo library that uses notes instead of keys"
+    }
+}
