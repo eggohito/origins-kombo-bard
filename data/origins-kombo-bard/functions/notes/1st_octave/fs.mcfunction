@@ -14,6 +14,8 @@
 #     'banjo', 'base_drum', 'bass', 'bell', 'bit', 'chime', 'cow_bell', 'didgeridoo', 'flute',
 #     'guitar', 'harp', 'hat', 'iron_xylophone', 'pling', 'snare', 'xylophone'
 #
+title @s title ""
+
 function rx.playerdb:api/get_self
 
 execute if score @s o-k-b.inst matches 1 run data modify storage rx:io playerdb.player.data.origins-kombo.input.current append value "1st_P8.banjo.F#"
