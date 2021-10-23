@@ -7,6 +7,6 @@
 
 function rx.playerdb:api/get_self
 
-data modify storage rx:io playerb.player.data.origins-kombo.key_set set value "bard"
+data modify storage rx:io playerdb.player.data.origins-kombo.key_set set value "bard"
 
 function rx.playerdb:api/save_self

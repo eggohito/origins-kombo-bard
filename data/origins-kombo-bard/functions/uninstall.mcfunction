@@ -28,8 +28,8 @@ data remove storage origins-kombo:bard root
 
 
 #   Disable the datapack
-datapack disable "origins-kombo-bard_1.17_dev"
+datapack disable "file/origins-kombo-bard_1.17_dev"
 
-datapack disable "origins-kombo-bard_1.17_v2.0.0"
+datapack disable "file/origins-kombo-bard_1.17_v2.0.0"
 
-datapack disable "origins-kombo-bard_1.17_v2.0.0.zip"
+datapack disable "file/origins-kombo-bard_1.17_v2.0.0.zip"
