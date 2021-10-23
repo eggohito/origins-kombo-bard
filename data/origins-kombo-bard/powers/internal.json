@@ -13,5 +13,6 @@
                 "command": "function origins-kombo-bard:key/set"
             }
         ]
-    }
+    },
+    "hidden": true
 }
