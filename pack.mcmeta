@@ -6,6 +6,6 @@
             "eggohito",
             "CandyCaneCazoo"
         ],
-        "description": "An extension of the origins-kombo library that uses notes instead of keys"
+        "description": "An extension for the origins-kombo library that uses notes instead of keys"
     }
 }
