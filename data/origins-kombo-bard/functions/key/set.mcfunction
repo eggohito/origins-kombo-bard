@@ -1,6 +1,6 @@
 #> origins-kombo-bard:key/set
 #
-#   > Initialize the player's kombo stuff
+#   > Change the player's 'key set' to "bard"
 #
 #@private
 
