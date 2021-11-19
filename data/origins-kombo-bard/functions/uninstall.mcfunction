@@ -6,9 +6,9 @@
 
 
 #   Display an uninstallation message
-tellraw @a {"translate": "[- Disabled \"Key Combo: Bard (Origins)\" @ v%s]", "color": "red", "with": [{"storage": "origins-kombo:bard", "nbt": "root.version"}]}
+tellraw @a {"translate": "[- Disabled \"Key Combo: Bard (Origins)\" @ v%1$s.%2$s.%3$s]", "color": "red", "with": [{"storage": "origins-kombo:bard", "nbt": "root.semver.major"}, {"storage": "origins-kombo:bard", "nbt": "root.semver.minor"}, {"storage": "origins-kombo:bard", "nbt": "root.semver.patch"}]}
 
-execute if score origins-kombo-bard load.status matches -1 run tellraw @a {"translate": "%1$s has been disabled due to missing %2$s dependency!", "color": "red", "with": [{"translate": "origins-kombo-bard_1.17_v%s", "color": "yellow", "with": [{"storage": "origins-kombo:bard", "nbt": "root.version"}]}, {"text": "origins-kombo (at least v3.0.0)", "color": "yellow", "hoverEvent": {"action": "show_text", "contents": {"text": "Click here to visit its GitHub page!"}}, "clickEvent": {"action": "open_url", "value": "https://github.com/eggohito/origins-kombo"}}]}
+execute if score origins-kombo-bard load.status matches -1 run tellraw @a {"translate": "%1$s has been disabled due to missing %2$s dependency!", "color": "red", "with": [{"translate": "origins-kombo-bard_1.17_v%1$s.%2$s.%3$s", "color": "yellow", "with": [{"storage": "origins-kombo:bard", "nbt": "root.semver.major"}, {"storage": "origins-kombo:bard", "nbt": "root.semver.minor"}, {"storage": "origins-kombo:bard", "nbt": "root.semver.patch"}]}, {"text": "origins-kombo (at least v3.1.0)", "color": "yellow", "hoverEvent": {"action": "show_text", "contents": {"text": "Click here to visit its GitHub page!"}}, "clickEvent": {"action": "open_url", "value": "https://github.com/eggohito/origins-kombo"}}]}
 
 
 #   Remove scoreboard objectives
