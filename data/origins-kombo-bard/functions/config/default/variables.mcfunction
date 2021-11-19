@@ -1,4 +1,4 @@
-#> origins-kombo-bard:config/default
+#> origins-kombo-bard:config/default/variables
 #
 #   > The default configuration values for the `origins-kombo:bard` origin
 #

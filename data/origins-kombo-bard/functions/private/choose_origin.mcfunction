@@ -5,7 +5,9 @@
 #@private
 
 
-#   Set the value of the `playerdb.player.data.origins-kombo.key_set` enum field to `"bard"`
+#   Set the default values for the origin
+function origins-kombo-bard:config/default/message_strings
+
 function origins-kombo-bard:key/set
 
 
