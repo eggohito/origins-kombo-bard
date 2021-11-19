@@ -15,3 +15,5 @@ data modify storage rx:io playerdb.player.data.origins-kombo.msg.cancelled set v
 data modify storage rx:io playerdb.player.data.origins-kombo.msg.unregistered set value '{"translate": "Unregistered hymn!", "color": "red"}'
 
 data modify storage rx:io playerdb.player.data.origins-kombo.msg.timed_out set value '{"translate": "Hymn casting timed out!", "color": "red"}'
+
+function rx.playerdb:api/save_self
