@@ -3,7 +3,7 @@
 #   > Check for dependencies before fully loading the datapack
 #
 #@within
-#   tag/function origins-kombo:addons
+#   tag/function origins-kombo:load
 #   tag/function load:post_load
 
 
