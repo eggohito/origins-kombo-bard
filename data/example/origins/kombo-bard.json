@@ -1,0 +1,25 @@
+{
+    "powers": [
+        "origins-kombo:internal",
+        "origins-kombo-bard:internal",
+
+        "origins-kombo:key/hotbar.1",
+        "origins-kombo:key/hotbar.2",
+        "origins-kombo:key/hotbar.3",
+        "origins-kombo:key/hotbar.4",
+        "origins-kombo:key/hotbar.5",
+        "origins-kombo:key/hotbar.6",
+        "origins-kombo:key/hotbar.7",
+        "origins-kombo:key/hotbar.8",
+        "origins-kombo:key/hotbar.9",
+        "origins-kombo:key/save_toolbar_activator",
+        "origins-kombo:key/load_toolbar_activator",
+
+        "example:kombos/simple_hymn",
+        "example:kombos/complex_hymn"
+    ],
+    "icon": {
+        "item": "minecraft:white_wool"
+    },
+    "description": "This is an origin for testing purposes"
+}
